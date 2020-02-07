@@ -23,7 +23,7 @@ public class CardOrderServiceTest {
         form.$("span.checkbox__box").click();
         form.$("button").click();
         System.out.println($(".Success_successBlock__2L3Cw span").getText());
-        $(".Success_successBlock__2L3Cw p").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
+        $(".Success_successBlock__2L3Cw p").shouldHave(exactText("Ваша заявка успешно123 отправлена! Наш менеджер свяжется с вами в ближайшее время."));
 
     }
 
